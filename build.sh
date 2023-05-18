@@ -22,7 +22,7 @@ CONDA="./conda/condabin/conda"
 "${CONDA}" env update -f ./env.yaml -p ./pyenv
 "${CONDA}" clean -a -y
 
-rm -f "pyenv-${PLATFORM}".zip"
+rm -f "pyenv-${PLATFORM}.zip"
 (
 	cd pyenv
 	zip -Xr "../pyenv-${PLATFORM}.zip" *
