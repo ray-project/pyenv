@@ -4,7 +4,7 @@ set -euo pipefail
 
 set -x
 
-MINIFORGE_VERSION="23.1.0-1"
+MINIFORGE_VERSION="4.11.0-4"
 
 PLATFORM="${PLATFORM:-Linux-x86_64}"
 
